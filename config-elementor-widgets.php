@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-//Registra Widgets
+//Registra Widgetssd
 function register_weboost_elementor_widgets( $widgets_manager ) {
 
     require_once( __DIR__ . '/widgets/teste1/card-widget.php' );
